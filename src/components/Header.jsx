@@ -44,7 +44,7 @@ const Header = (props) => {
             <li className='flex items-center'>
                 <Link to={props.home} className=''>
                     <Button
-                        buttonText='Hoe'
+                        buttonText='Home'
                         style={store.styleButton}
                     />  
                 </Link>
