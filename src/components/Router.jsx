@@ -28,7 +28,7 @@ const AuthRoutes = () => {
         store.isUserAuth ?
           <Outlet/>
         :
-          <Navigate to={'/'}/>
+          <Outlet/>
   )
 
 }
